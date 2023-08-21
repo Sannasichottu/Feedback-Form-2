@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section></section>
+    <div class="container">
+      <h1 class="form-title">Feedback</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter Your Name"
+            />
+          </div>
+
+          <div class="user-input-box">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="class-details-box">
+            <span class="class-title">FrontEnd</span>
+            <div class="class-category">
+              <input type="radio" id="html" name="fav_language" value="HTML" />
+              <label for="html">HTML</label>
+              <input type="radio" id="css" name="fav_language" value="CSS" />
+              <label for="css">CSS</label>
+              <input type="radio" id="js" name="fav_language" value="JS" />
+              <label for="js">JavaScript</label>
+              <input
+                type="radio"
+                id="react"
+                name="fav_language"
+                value="REACT"
+              />
+              <label for="react">ReactJs</label>
+            </div>
+          </div>
+          <div class="class-details-box">
+            <span class="class-title">BackEnd</span>
+            <div class="class-category">
+              <input
+                type="radio"
+                id="python"
+                name="fav_language"
+                value="python"
+              />
+              <label for="python">Python</label>
+              <input type="radio" id="php" name="fav_language" value="php" />
+              <label for="php">PHP</label>
+              <input
+                type="radio"
+                id="nodeJs"
+                name="fav_language"
+                value="NodeJs"
+              />
+              <label for="nodeJs">NodeJs</label>
+              <input
+                type="radio"
+                id="express"
+                name="fav_language"
+                value="express"
+              />
+              <label for="express">ExpressJs</label>
+            </div>
+          </div>
+          <div class="class-details-box">
+            <span class="class-title">Database</span>
+            <div class="class-category">
+              <input type="radio" id="sql" name="fav_language" value="sql" />
+              <label for="sql">SQL</label>
+              <input
+                type="radio"
+                id="pl/sql"
+                name="fav_language"
+                value="Pl/Sql"
+              />
+              <label for="pl/sql">PL/SQL</label>
+              <input
+                type="radio"
+                id="mySql"
+                name="fav_language"
+                value="MySql"
+              />
+              <label for="mySql">MySQL</label>
+              <input
+                type="radio"
+                id="mongodb"
+                name="fav_language"
+                value="MongoDb"
+              />
+              <label for="mongodb">MongoDB</label>
+            </div>
+          </div>
+
+          <div class="user-input-box">
+            <label><h3>Please Rate Training Content</h3></label>
+            <input type="number" name="rating" hidden />
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+          </div>
+          <div class="user-input-box">
+            <label><h3>Please Rate your Trainer</h3></label>
+            <input type="number" name="rating" hidden />
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+            <i class="fa-regular fa-star fa-lg"></i>
+          </div>
+
+          <!-- <div class="user-input-box">
+            <textarea
+              cols="10"
+              rows="5"
+              placeholder="Enter your Message"
+            ></textarea>
+          </div> -->
+        </div>
+        <div class="id">
+          <textarea
+            cols="10"
+            rows="5"
+            placeholder="Enter your Message"
+          ></textarea>
+        </div>
+        <div class="form-submit-btn">
+          <input type="button" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
